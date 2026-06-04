@@ -19,6 +19,7 @@ weather-agent for education
 ```
 # .env
 OPENAI_API_KEY=your_api_key_here
+# DASHSCOPE_API_KEY=your_api_key_here --for qianwen
 OPENAI_BASE_URL=https://api.openai.com/v1
 # 或使用通义千问
 # OPENAI_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
@@ -53,6 +54,12 @@ weather-agent/
 ```
 
 
+# 四、获取API Key 
+1. https://bailian.console.aliyun.com/cn-beijing?tab=model#/api-key qianwen 
+2. https://console.qweather.com/project?lang=zh weather天气 ->项目管理-> 具体项目 -> agent_API_KEY ![截图](./images/weather01.jpg "项目截图")
+3. weather API Host = nh2tuqha4m.re.qweatherapi.com   https://blog.qweather.com/announce/public-api-domain-change-to-api-host/
+4. OPENAI_BASE_URL=https://ws-hvv4vh0asa84iipz.cn-beijing.maas.aliyuncs.com/compatible-mode/v1 qianwen
+5. DASHSCOPE_API_KEY=XXX   for qianwen 
 
 
 
