@@ -228,7 +228,5 @@ __marimo__/
 guide/
 debug/
 .idea/
-.agent/
-agent/
 .skills/
 skills/
